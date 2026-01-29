@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  font-family: monospace;
+}
+
+#hud {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  color: cyan;
+  z-index: 10;
+}
+
+button {
+  background: black;
+  color: cyan;
+  border: 1px solid cyan;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+video {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 160px;
+  opacity: 0.2;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
